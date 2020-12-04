@@ -1,4 +1,4 @@
-Applies a function to every elem. (POPL course)
+Applies a function to every elem.
 
 **Course**: [Principles of Programming Languages], Monsoon 2019<br>
 **Taught by**: Prof. Venkatesh Chopella
