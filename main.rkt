@@ -1,9 +1,9 @@
 #lang racket
 
-; (map f lst): F X L -> L
+; (list.map f lst): F X L -> L
 ; applies a function to every element of list
-(define map
+(define list.map
   (lambda (f lst)
     (if (null? lst)
         (list)
-        (cons (f (car lst)) (map f (cdr lst))))))
+        (cons (f (car lst)) (list.map f (cdr lst))))))
